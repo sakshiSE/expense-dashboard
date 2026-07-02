@@ -8,8 +8,7 @@ https://huggingface.co/spaces/sakshiG0701/expense-dashboard
 
 ## Features
 
-- Upload an expense dataset in CSV format
-- View the uploaded data
+- Add,calculate and learn expense insights
 - Analyze expenses through interactive charts
 - Display rule-based spending insights
 - Simple and easy-to-use Streamlit interface
