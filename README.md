@@ -1,21 +1,26 @@
 # Expense Dashboard
 
-A simple expense dashboard built using Streamlit to analyze personal expenses. The application provides interactive charts and basic rule-based spending insights from an uploaded expense dataset.
+A simple expense dashboard built using Streamlit to help users manage and analyze personal expenses. The application allows users to add, delete, and clear expense records while providing interactive visualizations and basic rule-based spending insights.
 
 ## Live Demo
+
+The application is deployed on Hugging Face Spaces:
 
 https://huggingface.co/spaces/sakshiG0701/expense-dashboard
 
 ## Features
 
-- Add,calculate and learn expense insights
-- Analyze expenses through interactive charts
-- Display rule-based spending insights
+- Add new expense records
+- Delete individual expense records
+- Clear all expense records
+- Calculate total expenses
+- Visualize expenses through interactive charts
+- Generate rule-based spending insights
 - Simple and easy-to-use Streamlit interface
 
 ## Project Structure
 
-```
+```text
 expense-dashboard/
 │── app.py
 │── expenses.csv
@@ -55,6 +60,6 @@ Run the application:
 streamlit run app.py
 ```
 
-## Dataset
+## Data Storage
 
-The project uses an expense dataset in CSV format (`expenses.csv`) to generate charts and spending insights.
+Expense records are stored in `expenses.csv`. Users can add, delete, or clear records through the application, and the dashboard updates automatically to reflect the latest data.
